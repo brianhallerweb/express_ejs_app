@@ -1,0 +1,24 @@
+{
+  "name": "image_rec",
+  "version": "1.0.0",
+  "description": "brians practice image recognition app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.15.0",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "google-cloud": "^0.57.0",
+    "path": "^0.12.7",
+    "mongoose": "^4.13.7"
+  }
+}
